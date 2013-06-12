@@ -21,6 +21,7 @@ class TrackingController < ApplicationController
     params.require(:ts)
     params.require(:post_title)
     params.require(:post_id)
-    params.permit(:tracking_type, :ts, :post_title, :post_id)
+    params.require(:origin)
+    params.permit(:tracking_type, :ts, :post_title, :post_id, :origin)
   end
 end

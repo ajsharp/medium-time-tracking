@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612175334) do
+ActiveRecord::Schema.define(:version => 20130612192248) do
 
   create_table "check_ins", :force => true do |t|
     t.string   "post_id"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20130612175334) do
     t.datetime "ts"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+    t.string   "origin"
   end
 
 end
