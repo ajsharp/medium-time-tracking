@@ -1,5 +1,6 @@
 MediumTimeTracking::Application.routes.draw do
   post '/track' => 'tracking#check_in'
+  get '/ping' => 'ping#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
