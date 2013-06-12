@@ -41,6 +41,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.6)
+    newrelic_rpm (3.6.3.111)
     pg (0.15.0)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -93,6 +94,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  newrelic_rpm
   pg
   rails (= 3.2.13)
   strong_parameters
